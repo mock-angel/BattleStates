@@ -5,7 +5,10 @@ using UnityEngine;
 public class PlayerAim3d : MonoBehaviour
 {
     public LayerMask layerMask;
-
+    
+    Vector3 mousePos;
+    Vector3 lookDir;
+    
     void Update()
     {
         
@@ -31,5 +34,16 @@ public class PlayerAim3d : MonoBehaviour
             Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * 5, Color.white);
             Debug.Log("Did not Hit");
         }
+        
+        //---Rotation---
+        mousePos = Input.mousePosition;
+        Vector3 objectPos = Camera.main.WorldToScreenPoint(transform.position);
+        lookDir.x = mousePos.x - objectPos.x;
+        lookDir.y = mousePos.y - objectPos.y;
+        
+        //From FixedUpdate update.
+        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(new Vector3(0, 90-angle, 0));
+        
     }
 }
