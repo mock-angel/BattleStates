@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6085480820295075939}
   - component: {fileID: -4863270183163053261}
   - component: {fileID: -6439732788048323102}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DesertGround01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
