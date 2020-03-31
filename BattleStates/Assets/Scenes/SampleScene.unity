@@ -2160,8 +2160,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.5695948, y: 0, z: 0, w: 0.82192564}
-  m_LocalPosition: {x: 0, y: 40.5, z: -15.000003}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4197,27 +4197,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1889680636}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1980113513 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8872471804938267453, guid: 6234fadf9100d47df9995336e5b23c39,
-    type: 3}
-  m_PrefabInstance: {fileID: 549930377427122685}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1980113514
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1980113513}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 179d825f3f7d71523819e27070306c9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 256
 --- !u!1001 &2003681138
 PrefabInstance:
   m_ObjectHideFlags: 0

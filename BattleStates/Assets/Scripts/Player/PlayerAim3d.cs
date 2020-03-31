@@ -1,8 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.ECS;
-public class PlayerAim : MonoBehaviour
+
+public class PlayerAim3d : MonoBehaviour
 {
     public LayerMask layerMask;
 
