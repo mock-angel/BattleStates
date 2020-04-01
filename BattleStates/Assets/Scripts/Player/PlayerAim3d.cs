@@ -41,9 +41,11 @@ public class PlayerAim3d : MonoBehaviour
         lookDir.x = mousePos.x - objectPos.x;
         lookDir.y = mousePos.y - objectPos.y;
         
+    }
+    
+    void FixedUpdate(){
         //From FixedUpdate update.
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(new Vector3(0, 90-angle, 0));
-        
     }
 }

@@ -6,7 +6,7 @@ public class PlayerMovement3d : MonoBehaviour
 {
     public float moveSpeed = 5f;
     
-    public Rigidbody2D rb;
+//    public Rigidbody2D rb;
     
     Vector3 movement;
     Vector3 axis;
