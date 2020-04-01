@@ -11,7 +11,6 @@ public class PlayerAim3d : MonoBehaviour
     
     void Update()
     {
-        
         RaycastHit camHit;
         Ray camRay = Camera.main.ScreenPointToRay(Input.mousePosition);
         
